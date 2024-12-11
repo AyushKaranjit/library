@@ -3,7 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
     <title>Library</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Kare's Library</h1>
+    </header>
+    <table id="libraryTable">
+      <thead>
+        <tr>
+          <th class="r1">Title</th>
+          <th class="r1">Author</th>
+          <th class="r1">Pages</th>
+          <th class="r1">Read</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Books will be added here -->
+      </tbody>
+    </table>
+    <div class="button-container">
+      <dialog>
+        <button autofocus>Close</button>
+        <p>This modal dialog has a groovy backdrop!</p>
+      </dialog>
+      <button id="addBookBtn" type="submit">New Book</button>
+    </div>
+  </body>
 </html>

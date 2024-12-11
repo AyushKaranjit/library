@@ -81,3 +81,55 @@ nav,
 section {
   display: block;
 }
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+table {
+  margin: 0 auto;
+  border: 2px solid #000;
+  width: 80%;
+}
+
+table th,
+table td {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: left;
+}
+
+table td {
+  background-color: #d3d3d3;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) td {
+  background-color: #f0f0f0;
+}
+
+.r1 {
+  background-color: #a9a9a9;
+  font-weight: bold;
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+#addBookBtn {
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #66bb6a;
+  border: 1px solid #006400;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
