@@ -25,10 +25,10 @@ function addBookToLibrary(title, author, pages, read) {
   });
 }
 
-addBookToLibrary("The Hobbit", "J.R.R. Tolkien", 310, false);
-addBookToLibrary("The Lord of the Rings", "J.R.R. Tolkien", 1178, true);
-addBookToLibrary("The Silmarillion", "J.R.R. Tolkien", 365, false);
-addBookToLibrary("The Children of Húrin", "J.R.R. Tolkien", 313, true);
+// addBookToLibrary("The Hobbit", "J.R.R. Tolkien", 310, false);
+// addBookToLibrary("The Lord of the Rings", "J.R.R. Tolkien", 1178, true);
+// addBookToLibrary("The Silmarillion", "J.R.R. Tolkien", 365, false);
+// addBookToLibrary("The Children of Húrin", "J.R.R. Tolkien", 313, true);
 
 // Create a div with the class "button-container"
 const buttonContainer = document.createElement("div");
